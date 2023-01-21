@@ -1,0 +1,369 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #4f46e5;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Roboto Mono", monospace;
+}
+
+.book {
+  position: fixed;
+  right: 25px;
+  bottom: 80px;
+}
+
+.book-icon,
+.scroll-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+.scroll {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+
+.scroll .scroll-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.book-icon ion-icon {
+  color: white;
+  width: 22px;
+  height: 22px;
+}
+
+.background {
+  background-color: #f5f6ff;
+  background-image: url(../images/background.png);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+.header {
+  padding: 25px 0;
+}
+
+.header-layout {
+  display: grid;
+  grid-template-columns: 1fr 70% 1fr;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0 2px;
+}
+
+.header-logo span {
+  color: var(--primary-color);
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+
+.header-logo img {
+  width: 45px;
+  height: 45px;
+}
+
+.header-list {
+  display: flex;
+  justify-content: center;
+  gap: 0 45px;
+}
+
+.header-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.header-item ion-icon {
+  font-size: 1.72rem;
+}
+
+.header-link {
+  font-size: 1.5rem;
+}
+
+.header-item:hover .header-link,
+.header-item:hover ion-icon {
+  color: var(--primary-color);
+  transition-delay: 0.35s;
+}
+
+.header-item::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-in-out;
+}
+
+.header-item:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.header-button {
+  display: flex;
+  justify-content: end;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 12px 25px;
+  border-radius: 20px;
+}
+
+.btn ion-icon {
+  font-size: 1.65rem;
+}
+
+.banner-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: calc(100vh - 98px);
+  align-items: center;
+}
+
+.banner-title {
+  position: relative;
+  color: transparent;
+  background: linear-gradient(to right, #8142e6, #3d6ddc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 5.55rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.banner-text {
+  font-size: 1.5rem;
+  color: #444;
+  margin: 25px 0 40px 0;
+  line-height: 1.7;
+}
+
+.banner-control {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+}
+
+.button {
+  font-size: 1.5rem;
+  padding: 13px 30px;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 100rem;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.banner-svg img {
+  transform: scale(1.2);
+}
+
+.banner-link {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.banner-link ion-icon {
+  transition: all 0.2s ease-in-out;
+}
+
+.banner-link:hover ion-icon {
+  margin-left: 10px;
+}
+
+.content {
+  padding: 100px 0;
+  background-color: #f5f6ff;
+  background-image: url(../images/background.png);
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.title {
+  color: var(--primary-color);
+  font-size: 3.2rem;
+  text-align: center;
+  letter-spacing: 0.4px;
+  margin-bottom: 80px;
+}
+
+.content-item {
+  background-color: white !important;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eee;
+  transition: all 0.1s ease-in-out;
+}
+
+.content-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.content-item:hover {
+  cursor: pointer;
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.08);
+  border-color: #4e46e59b;
+}
+
+.content-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.main {
+  height: 0;
+  overflow: hidden;
+}
+
+.main-text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.active {
+  border-color: #4e46e59b;
+}
+
+.active .content-name ion-icon {
+  transform: rotate(180deg);
+}
+
+.active .main {
+  height: auto;
+  margin-top: 25px;
+  overflow: unset;
+}
+
+.book-content {
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  height: 90%;
+  background: linear-gradient(to right, #414345, #232526);
+  padding: 25px;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+  overflow: scroll;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+.book-content::-webkit-scrollbar {
+  width: 0;
+}
+
+.showBook {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.book-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.book-title {
+  font-size: 1.9rem;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+.book-header ion-icon {
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+.book ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.book ul li a {
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.book ul li a:hover {
+  color: peachpuff;
+}
+
+.chapter {
+  font-size: 1.5rem;
+  color: palegreen;
+  margin-bottom: 15px;
+}
+
+.hight {
+  display: inline-block;
+  color: var(--primary-color);
+}

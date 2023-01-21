@@ -1,0 +1,150 @@
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.book-content {
+  width: 425px;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 992px;
+  }
+  .header-layout {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-list,
+  .header-button {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .menu img {
+    width: 32px;
+    cursor: pointer;
+  }
+  .banner-layout {
+    display: flex;
+  }
+  .banner-title {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+
+  .banner-content {
+    text-align: center;
+  }
+
+  .banner-svg {
+    display: none;
+  }
+
+  .banner-control {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner-title {
+    font-size: 4.5rem;
+  }
+
+  .banner-text {
+    padding: 0 15px;
+  }
+  .content-name {
+    font-size: 1.65rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .header-logo span {
+    font-size: 2.65rem;
+  }
+  .header-logo img {
+    width: 35px;
+    height: 35px;
+  }
+  .banner-title {
+    font-size: 4rem;
+  }
+  .content {
+    padding: 80px 0;
+  }
+  .title {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  .banner-title {
+    font-size: 3.05rem;
+  }
+  .banner-text {
+    font-size: 1.4rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .content {
+    padding: 40px 0;
+  }
+  .title {
+    margin-bottom: 35px;
+  }
+  .content-name {
+    font-size: 1.5rem;
+  }
+
+  .content-item {
+    padding: 20px;
+  }
+
+  .content-name ion-icon {
+    width: 25px !important;
+  }
+  .book-icon,
+  .scroll-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .scroll .scroll-icon img {
+    width: 23px;
+    height: 23px;
+  }
+  .scroll,
+  .book {
+    right: 15px;
+  }
+
+  .banner-control {
+    justify-content: center;
+  }
+  .button,
+  .banner-link {
+    font-size: 1.4rem;
+  }
+
+  .book-content {
+    width: 365px;
+  }
+}

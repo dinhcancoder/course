@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/reponsive.css" />
+    <title>Admin KanIsDev</title>
+  </head>
+  <body>
+    <div class="background">
+      <!-- header -->
+      <div class="header">
+        <div class="container">
+          <div class="header-layout">
+            <a href="#!" class="header-logo">
+              <span>KanIsDev</span>
+              <img src="./assets/images/logo.svg" alt="" />
+            </a>
+            <ul class="header-list">
+              <li class="header-item">
+                <ion-icon name="home-outline"></ion-icon>
+                <a href="#!" class="header-link">Trang chủ</a>
+              </li>
+              <li class="header-item">
+                <ion-icon name="layers-outline"></ion-icon>
+                <a href="#!" class="header-link">Danh mục</a>
+              </li>
+              <li class="header-item">
+                <ion-icon name="library-outline"></ion-icon>
+                <a href="#!" class="header-link">Khóa học</a>
+              </li>
+              <li class="header-item">
+                <ion-icon name="stats-chart-outline"></ion-icon>
+                <a href="#!" class="header-link">Blog</a>
+              </li>
+              <li class="header-item">
+                <ion-icon name="call-outline"></ion-icon>
+                <a href="#!" class="header-link">Liên hệ</a>
+              </li>
+            </ul>
+            <div class="header-button">
+              <a href="#!" class="btn"
+                >Đăng nhập <ion-icon name="person-outline"></ion-icon
+              ></a>
+            </div>
+            <div class="menu">
+              <img src="./assets/images/menu.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <div class="banner-layout">
+            <div class="banner-content">
+              <h1 class="banner-title">
+                Khóa học lập trình <br />Frontend Developer Website
+              </h1>
+              <p class="banner-text">
+                Trang web này tạo ra nhằm mục đích chia sẻ các kiến thức liên
+                quan đến lập trình frontend developer, chia sẻ các tips và
+                tricks. Giúp cộng đồng công nghệ thông tin càng ngày càng phát
+                triển trong tương lai. <br />Admin: KanIsDev
+              </p>
+              <div class="banner-control">
+                <button class="button">Đăng ký ngay</button>
+                <a href="#!" class="banner-link"
+                  >Xem thêm <ion-icon name="arrow-forward-outline"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="banner-svg">
+              <img src="./assets/images/Hand coding.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- content -->
+    <div class="content">
+      <div class="container">
+        <div class="content-layout">
+          <h2 class="title">Khóa học HTML, CSS cơ bản đến nâng cao</h2>
+          <!-- item content -->
+          <div class="content-item" id="b-01">
+            <h3 class="content-name">
+              Bài 1: Cấu trúc file HTML.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <p class="main-text">
+                Phần DOCTYPE: khai báo kiểu văn bản. Nó cho trình duyệt biết bạn
+                đang sử dụng phiên bản HTML nào. <br />Đây là phần rất quan
+                trọng nhưng lại thường bị bỏ qua trong nhiều tài liệu về nhập
+                môn HTML. Có rất nhiều loại tài liệu khác nhau trên web, và một
+                trình duyệt chỉ có thể hiển thị một tài liệu HTML chính xác 100%
+                nếu nó biết phiên bản HTML nào mà tài liệu đó đang sử dụng.<br />
+                Phần khai báo DOCTYPE ở hình minh họa là của phiên bản HTML5.
+                Phần tiêu đề: bắt đầu bằng thẻ
+                <head>
+                  và kết thúc bởi thẻ</head
+                >. Phần này chứa tiêu đề mà được hiển thị trên thanh điều hướng
+                của trang web. Tiêu đề là phần nội dung nằm giữa cặp thẻ
+                <title>và</title>.<br />
+                Ngoài ra nó còn chứa một số khai báo khác, các thông tin phục vụ
+                SEO mà chúng ta không đề cập ở đây. Phần thân: nằm sau phần tiêu
+                đề. Nó bao gồm văn bản, hình ảnh và các liên kết mà bạn muốn
+                hiển thị trên trang web của mình. Phần thân bắt đầu bằng thẻ
+                <body>
+                  và kết thúc với thẻ
+                </body>
+                .
+              </p>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-02">
+            <h3 class="content-name">
+              Bài 2: Các thẻ HTML thông dụng.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <p class="main-text">
+                Thẻ mở đầu của trang HTML - none html: Thẻ chứa các thẻ trong
+                phần đầu của trang HTML - none <br />
+                <psan class="hight">head: </psan> Tiêu đề trang web - none
+                <br />
+                <span class="hight">title:</span> Mô tả tổng quát về nội dung
+                trang web - none <br />
+                <span class="hight">meta:</span> Dùng để nhúng một tập tin nào
+                đó vào trang web - none
+                <br />
+                <span class="hight">script:</span> Dùng để nhúng các tập tin
+                javascript - none <br />
+                <span class="hight">link:</span> Dùng để bao bọc một nội dung về
+                css - none <br />
+                <span class="hight">body:</span> Thẻ chứa nội dung chính của
+                website - block level <br />
+                <span class="hight">h1:</span> Thẻ để hiện tiêu đề của một vấn
+                đề nào đó - block level
+                <br />
+                <span class="hight">div:</span> Thẻ này thường dùng để chứa nội
+                dung - block level <br />
+                <span class="hight">span:</span> Thẻ chứa nội dung - inline
+                <br />
+                Thẻ chứa nội dung (đoạn văn) - block level <br />
+                <span class="hight"> p:</span> Thẻ canh giữa các đối tượng nằm
+                bên trong - block level
+                <br />
+                <span class="hight">a:</span> Thẻ tạo link - inline <br />
+                <span class="hight">br:</span> Thẻ xuống hàng - block level
+                <br />
+              </p>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-03">
+            <h3 class="content-name">
+              Bài 3: Sự khác biệt giữa thẻ inline và thẻ block.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-04">
+            <h3 class="content-name">
+              Bài 4: Sự khác biệt giữa class và id.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-05">
+            <h3 class="content-name">
+              Bài 5: Tìm hiểu về BEM.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-06">
+            <h3 class="content-name">
+              Bài 6: Thực hành BEM cơ bản.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-07">
+            <h3 class="content-name">
+              Bài 7: Thực hành và nắm vững kiến thức.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-08">
+            <h3 class="content-name">
+              Bài 8: Emmet trong vscode.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-09">
+            <h3 class="content-name">
+              Bài 9: Reset CSS cơ bản.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-10">
+            <h3 class="content-name">
+              Bài 10: Cấu trúc CSS cơ bản.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-11">
+            <h3 class="content-name">
+              Bài 11: Các thuộc tính về màu sắc trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-12">
+            <h3 class="content-name">
+              Bài 12: Các thuộc tính về kích thước trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-13">
+            <h3 class="content-name">
+              Bài 13: Các thuộc tính background trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-14">
+            <h3 class="content-name">
+              Bài 14: Các đơn vị trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-15">
+            <h3 class="content-name">
+              Bài 15: Sự khác nhau giữa em và rem.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-16">
+            <h3 class="content-name">
+              Bài 16: Các thuộc tính về border.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-17">
+            <h3 class="content-name">
+              Bài 17: Nắm vững thuộc tính margin và padding.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-18">
+            <h3 class="content-name">
+              Bài 18: Tìm hiểu box-sizing trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-19">
+            <h3 class="content-name">
+              Bài 19: Tìm hiểu thuộc tính đisplay.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <!-- item content -->
+          <div class="content-item" id="b-20">
+            <h3 class="content-name">
+              Bài 20: Các thuộc tính Font.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-21">
+            <h3 class="content-name">
+              Bài 21: Các thuộc tính hình ảnh.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-22">
+            <h3 class="content-name">
+              Bài 22: Tìm hiểu Pseudo class.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-23">
+            <h3 class="content-name">
+              Bài 23: Thực hành và nắm vững kiến thức.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-24">
+            <h3 class="content-name">
+              Bài 24: Hình nền gradient, chữ gradient trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-25">
+            <h3 class="content-name">
+              Bài 25: Thuộc tính background-image.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-26">
+            <h3 class="content-name">
+              Bài 26: Sự khác biệt giữa opacity, display, visibility.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-27">
+            <h3 class="content-name">
+              Bài 27: Thuộc tính shadow trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-28">
+            <h3 class="content-name">
+              Bài 28: Sử dụng biến trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-29">
+            <h3 class="content-name">
+              Bài 29: Độ ưu tiên trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-30">
+            <h3 class="content-name">
+              Bài 30: Nắm vững child selectors & type selectors.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-31">
+            <h3 class="content-name">
+              Bài 31: Thuộc tính transition.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-32">
+            <h3 class="content-name">
+              Bài 32: Thực hành và nắm vững kiến thức.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-33">
+            <h3 class="content-name">
+              Bài 33: Thuộc tính transform.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-34">
+            <h3 class="content-name">
+              Bài 34: Nắm vững thuộc tính position: relative.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-35">
+            <h3 class="content-name">
+              Bài 35: Nắm vững thuộc tính position: absolute.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-36">
+            <h3 class="content-name">
+              Bài 36: Nắm vững thuộc tính position: fixed.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-37">
+            <h3 class="content-name">
+              Bài 37: Thực hành bài tập position.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-38">
+            <h3 class="content-name">
+              Bài 38: Tìm hiểu thuộc tính before & after.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-39">
+            <h3 class="content-name">
+              Bài 39: Thực hành và nắm vững kiến thức.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-40">
+            <h3 class="content-name">
+              Bài 40: Animation là gì? Tìm hiểu và vận dụng antimation.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-41">
+            <h3 class="content-name">
+              Bài 41: Thực hành và nắm vững kiến thức.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-42">
+            <h3 class="content-name">
+              Bài 42: Tìm hiểu toàn tập về flexbox.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-43">
+            <h3 class="content-name">
+              Bài 43: Thực hành và nắm vững kiến thức.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-44">
+            <h3 class="content-name">
+              Bài 44: Thủ thuật chia layout bằng flexbox.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-45">
+            <h3 class="content-name">
+              Bài 45: Kiến thức responsive.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-46">
+            <h3 class="content-name">
+              Bài 46: Thực hành cắt 1 số giao diện nhỏ.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-47">
+            <h3 class="content-name">
+              Bài 47: Tổng hợp tất cả về form và table.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-48">
+            <h3 class="content-name">
+              Bài 48: Thực hành custom checkbox.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-49">
+            <h3 class="content-name">
+              Bài 49: Thực hành custom radio.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-50">
+            <h3 class="content-name">
+              Bài 50: Thực hành custom input file.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-51">
+            <h3 class="content-name">
+              Bài 51: Thực hành custom checkbox toggle.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-52">
+            <h3 class="content-name">
+              Bài 52: Thực hành code hiệu ứng input, textarea, button.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-53">
+            <h3 class="content-name">
+              Bài 53: Thực hành một số giao diện form.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-54">
+            <h3 class="content-name">
+              Bài 54: Tổng hợp tất cả các kiến thức về table.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-55">
+            <h3 class="content-name">
+              Bài 55: Thực hành các thuộc tính về table.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-56">
+            <h3 class="content-name">
+              Bài 56: Kiến thức CSS grid 1.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-57">
+            <h3 class="content-name">
+              Bài 57: Kiến thức CSS grid 2.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-58">
+            <h3 class="content-name">
+              Bài 58: Kiến thức CSS grid 3.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-59">
+            <h3 class="content-name">
+              Bài 59: Vận dụng kiến thức CSS grid để chia layout.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-60">
+            <h3 class="content-name">
+              Bài 60: Thực hành với nắm vững CSS grid.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="b-61">
+            <h3 class="content-name">
+              Bài 61: Chia sẻ các tip và tricks hay trong CSS.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+          <div class="content-item" id="finish">
+            <h3 class="content-name">
+              Tổng kết: tạo một project lớn bằng tất cả kiến thức đã học.
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </h3>
+            <div class="main">
+              <div class="null">Bài học này chưa được cập nhật.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- book -->
+    <div class="book">
+      <div class="book-icon">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <div class="book-content">
+        <div class="book-header">
+          <h4 class="book-title">Danh sách bài học</h4>
+          <ion-icon name="close-outline" id="close"></ion-icon>
+        </div>
+        <ul>
+          <p class="chapter">1. Kiến thức HTML cần nắm vững</p>
+          <li><a href="#b-01">Bài 1: Cấu trúc file HTML.</a></li>
+          <li><a href="#b-02">Bài 2: Các thẻ HTML thông dụng.</a></li>
+          <li>
+            <a href="#b-03"
+              >Bài 3: Sự khác biệt giữa thẻ inline và thẻ block.</a
+            >
+          </li>
+          <li><a href="#b-04">Bài 4: Sự khác biệt giữa class và id.</a></li>
+          <li><a href="#b-05">Bài 5: Tìm hiểu về BEM.</a></li>
+          <li><a href="#b-06">Bài 6: Thực hành BEM cơ bản.</a></li>
+          <li><a href="#b-07">Bài 7: Thực hành và nắm vững kiến thức.</a></li>
+          <li><a href="#b-08">Bài 8: Emmet trong vscode.</a></li>
+          <p class="chapter">2. CSS cơ bản 1</p>
+          <li><a href="#b-09">Bài 9: Reset CSS cơ bản.</a></li>
+          <li><a href="#b-10">Bài 10: Cấu trúc CSS cơ bản.</a></li>
+          <li>
+            <a href="#b-11">Bài 11: Các thuộc tính về màu sắc trong CSS.</a>
+          </li>
+          <li>
+            <a href="#b-12">Bài 12: Các thuộc tính về kích thước trong CSS.</a>
+          </li>
+          <li>
+            <a href="#b-13">Bài 13: Các thuộc tính background trong CSS.</a>
+          </li>
+          <li><a href="#b-14">Bài 14: Các đơn vị trong CSS.</a></li>
+          <li><a href="#b-15">Bài 15: Sự khác nhau giữa em và rem.</a></li>
+          <li><a href="#b-16">Bài 16: Các thuộc tính về border.</a></li>
+          <li>
+            <a href="#b-17">Bài 17: Nắm vững thuộc tính margin và padding.</a>
+          </li>
+          <li><a href="#b-18">Bài 18: Tìm hiểu box-sizing trong CSS.</a></li>
+          <li><a href="#b-19">Bài 19: Tìm hiểu thuộc tính đisplay.</a></li>
+          <li><a href="#b-20">Bài 20: Các thuộc tính Font.</a></li>
+          <li><a href="#b-21">Bài 21: Các thuộc tính hình ảnh.</a></li>
+          <li><a href="#b-22">Bài 22: Tìm hiểu Pseudo class.</a></li>
+          <li><a href="#b-23">Bài 23: Thực hành và nắm vững kiến thức.</a></li>
+          <p class="chapter">3. CSS cơ bản 2</p>
+          <li>
+            <a href="#b-24"
+              >Bài 24: Hình nền gradient, chữ gradient trong CSS.</a
+            >
+          </li>
+          <li><a href="#b-25">Bài 25: Thuộc tính background-image.</a></li>
+          <li>
+            <a href="#b-26"
+              >Bài 26: Sự khác biệt giữa opacity, display, visibility.</a
+            >
+          </li>
+          <li><a href="#b-27">Bài 27: Thuộc tính shadow trong CSS.</a></li>
+          <li><a href="#b-28">Bài 28: Sử dụng biến trong CSS.</a></li>
+          <li><a href="#b-29">Bài 29: Độ ưu tiên trong CSS.</a></li>
+          <li>
+            <a href="#b-30"
+              >Bài 30: Nắm vững child selectors & type selectors.</a
+            >
+          </li>
+          <li><a href="#b-31">Bài 31: Thuộc tính transition.</a></li>
+          <li><a href="#b-32">Bài 32: Thực hành và nắm vững kiến thức.</a></li>
+          <p class="chapter">4. CSS nâng cao</p>
+          <li><a href="#b-33">Bài 33: Thuộc tính transform.</a></li>
+          <li>
+            <a href="#b-34">Bài 34: Nắm vững thuộc tính position: relative.</a>
+          </li>
+          <li>
+            <a href="#b-35">Bài 35: Nắm vững thuộc tính position: absolute.</a>
+          </li>
+          <li>
+            <a href="#b-36">Bài 36: Nắm vững thuộc tính position: fixed.</a>
+          </li>
+          <li><a href="#b-37">Bài 37: Thực hành bài tập position.</a></li>
+          <li>
+            <a href="#b-38">Bài 38: Tìm hiểu thuộc tính before & after.</a>
+          </li>
+          <li><a href="#b-39">Bài 39: Thực hành và nắm vững kiến thức.</a></li>
+          <li>
+            <a href="#b-40"
+              >Bài 40: Animation là gì? Tìm hiểu và vận dụng antimation.</a
+            >
+          </li>
+          <li><a href="#b-41">Bài 41: Thực hành và nắm vững kiến thức.</a></li>
+          <p class="chapter">5. Flexbox trong CSS</p>
+          <li><a href="#b-42">Bài 42: Tìm hiểu toàn tập về flexbox.</a></li>
+          <li><a href="#b-43">Bài 43: Thực hành và nắm vững kiến thức.</a></li>
+          <li>
+            <a href="#b-44">Bài 44: Thủ thuật chia layout bằng flexbox.</a>
+          </li>
+          <li><a href="#b-45">Bài 45: Kiến thức responsive.</a></li>
+          <li><a href="#b-46">Bài 46: Thực hành cắt 1 số giao diện nhỏ.</a></li>
+          <p class="chapter">6. Các thẻ HTML về Form và Table</p>
+          <li><a href="#b-47">Bài 47: Tổng hợp tất cả về form và table.</a></li>
+          <li><a href="#b-48">Bài 48: Thực hành custom checkbox.</a></li>
+          <li><a href="#b-49">Bài 49: Thực hành custom radio.</a></li>
+          <li><a href="#b-50">Bài 50: Thực hành custom input file.</a></li>
+          <li><a href="#b-51">Bài 51: Thực hành custom checkbox toggle.</a></li>
+          <li>
+            <a href="#b-52"
+              >Bài 52: Thực hành code hiệu ứng input, textarea, button.</a
+            >
+          </li>
+          <li><a href="#b-53">Bài 53: Thực hành một số giao diện form.</a></li>
+          <li>
+            <a href="#b-54">Bài 54: Tổng hợp tất cả các kiến thức về table.</a>
+          </li>
+          <li>
+            <a href="#b-55">Bài 55: Thực hành các thuộc tính về table.</a>
+          </li>
+          <p class="chapter">7. CSS Grid</p>
+          <li><a href="#b-56">Bài 56: Kiến thức CSS grid 1.</a></li>
+          <li><a href="#b-57">Bài 56: Kiến thức CSS grid 2.</a></li>
+          <li><a href="#b-58">Bài 56: Kiến thức CSS grid 3.</a></li>
+          <li>
+            <a href="#b-59"
+              >Bài 59: Vận dụng kiến thức CSS grid để chia layout.</a
+            >
+          </li>
+          <li><a href="#b-60">Bài 60: Thực hành với nắm vững CSS grid.</a></li>
+          <li>
+            <a href="#b-61">Bài 61: Chia sẻ các tip và tricks hay trong CSS.</a>
+          </li>
+          <li>
+            <a href="#finish"
+              >Tổng kết: tạo một project lớn bằng tất cả kiến thức đã học.</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- scroll -->
+    <div class="scroll">
+      <div class="scroll-icon">
+        <img src="./assets/images/top-svgrepo-com.svg" alt="" />
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
